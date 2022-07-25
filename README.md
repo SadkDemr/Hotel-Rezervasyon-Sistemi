@@ -13,7 +13,7 @@ Skills: C++
 ###### Payment Page:
 ![Hotel Reservation System (QT)](https://imgyukle.com/f/2022/04/10/RRLEst.jpg)
 
-- 🔭 I’m currently working on this page. 
+
 
 
 
