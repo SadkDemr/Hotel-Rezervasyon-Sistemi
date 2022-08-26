@@ -5,13 +5,13 @@ This project is a simple hotel reservation system written in C++. It is organize
 Skills: C++
 
 ###### Rooms Page:
-![Hotel Reservation System (QT)](https://imgyukle.com/f/2022/04/10/RRH4tA.jpg)
+![Hotel Reservation System (QT)](https://github.com/SadkDemr/Hotel-Rezervasyon-Sistemi/blob/master/Hotel_Management_in_QT%20(2)/image/room.png?raw=true)
 
 ###### Registration Page:
-![Hotel Reservation System (QT)](https://imgyukle.com/f/2022/04/10/RRLP9s.jpg)
+![Hotel Reservation System (QT)](https://github.com/SadkDemr/Hotel-Rezervasyon-Sistemi/blob/master/Hotel_Management_in_QT%20(2)/image/add.png?raw=true)
 
-###### Payment Page:
-![Hotel Reservation System (QT)](https://imgyukle.com/f/2022/04/10/RRLEst.jpg)
+###### Main Page:
+![Hotel Reservation System (QT)](https://github.com/SadkDemr/Hotel-Rezervasyon-Sistemi/blob/master/Hotel_Management_in_QT%20(2)/image/main.png?raw=true)
 
 
 
