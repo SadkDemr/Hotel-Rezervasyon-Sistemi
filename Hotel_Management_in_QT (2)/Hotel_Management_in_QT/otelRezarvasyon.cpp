@@ -9,8 +9,8 @@ int Hotel::CheckOut(int odano)
     //Odaların Database Yükleme kısmı
 
     QSqlDatabase Database = QSqlDatabase::addDatabase("QSQLITE", "Data");
-    Database.setDatabaseName("C:/Users/LENOVA/OneDrive/Masaüstü/Hotel_Management_in_QT (2)/database/database.db");
-    if(QFile::exists("C:/Users/LENOVA/OneDrive/Masaüstü/Hotel_Management_in_QT (2)/database/database.db"))
+    Database.setDatabaseName("C:/Users/msdemir/Downloads/Hotel-Rezervasyon-Sistemi-master (1)/Hotel-Rezervasyon-Sistemi-master/Hotel_Management_in_QT (2)/database/database.db");
+    if(QFile::exists("C:/Users/msdemir/Downloads/Hotel-Rezervasyon-Sistemi-master (1)/Hotel-Rezervasyon-Sistemi-master/Hotel_Management_in_QT (2)/database/database.db"))
         qDebug() << "DB file exist";
     else
        qDebug() << "DB file doesn't exists";
@@ -41,8 +41,8 @@ int Hotel::BookRoom(int odano, QString isim, QString telNo, QString kaldigiGun, 
     //Kaıt ettiğimiz kişilerin database atıldığı kısım
 
     QSqlDatabase Database = QSqlDatabase::addDatabase("QSQLITE", "Data");
-    Database.setDatabaseName("C:/Users/LENOVA/OneDrive/Masaüstü/Hotel_Management_in_QT (2)/database/database.db");
-    if(QFile::exists("C:/Users/LENOVA/OneDrive/Masaüstü/Hotel_Management_in_QT (2)/database/database.db"))
+    Database.setDatabaseName("C:/Users/msdemir/Downloads/Hotel-Rezervasyon-Sistemi-master (1)/Hotel-Rezervasyon-Sistemi-master/Hotel_Management_in_QT (2)/database/database.db/database.db");
+    if(QFile::exists("C:/Users/msdemir/Downloads/Hotel-Rezervasyon-Sistemi-master (1)/Hotel-Rezervasyon-Sistemi-master/Hotel_Management_in_QT (2)/database/database.db/database.db"))
         qDebug() << "DB file exist";
     else
        qDebug() << "DB file doesn't exists";
@@ -95,8 +95,8 @@ std::vector<int> Hotel::getRoomList(QString flag = "y")
         std::vector<int> odalar;
         //if(availableRooms.empty())
         QSqlDatabase Database = QSqlDatabase::addDatabase("QSQLITE", "Data");
-        Database.setDatabaseName("C:/Users/LENOVA/OneDrive/Masaüstü/Hotel_Management_in_QT (2)/database/database.db");
-        if(QFile::exists("C:/Users/LENOVA/OneDrive/Masaüstü/Hotel_Management_in_QT (2)/database/database.db"))
+        Database.setDatabaseName("C:/Users/msdemir/Downloads/Hotel-Rezervasyon-Sistemi-master (1)/Hotel-Rezervasyon-Sistemi-master/Hotel_Management_in_QT (2)/database/database.db/database.db");
+        if(QFile::exists("C:/Users/msdemir/Downloads/Hotel-Rezervasyon-Sistemi-master (1)/Hotel-Rezervasyon-Sistemi-master/Hotel_Management_in_QT (2)/database/database.db/database.db"))
             qDebug() << "DB file exist";
         else
            qDebug() << "DB file doesn't exists";

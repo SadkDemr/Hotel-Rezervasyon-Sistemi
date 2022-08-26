@@ -63,7 +63,7 @@ void MainWindow::on_btnCheckAvailability_clicked()
 void MainWindow::on_pushButton_clicked()
 {
     QSqlDatabase Database = QSqlDatabase::addDatabase("QSQLITE", "Data");
-    Database.setDatabaseName("C:/Users/LENOVA/OneDrive/Masaüstü/Hotel_Management_in_QT (2)/database/database.db");
+    Database.setDatabaseName("C:/Users/msdemir/Downloads/Hotel-Rezervasyon-Sistemi-master (1)/Hotel-Rezervasyon-Sistemi-master/Hotel_Management_in_QT (2)/database/database.db");
    QSqlQueryModel * modal= new QSqlQueryModel();
    Database.open();
    QSqlQuery* query=new QSqlQuery(Database);

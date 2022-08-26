@@ -1,5 +1,5 @@
 #include "odaUygunluk.h"
-#include "ui_roomavailabledialog.h"
+#include "ui_odaUygunluk.h"
 #include <QDebug>
 
 RoomAvailableDialog::RoomAvailableDialog(QWidget *parent) :

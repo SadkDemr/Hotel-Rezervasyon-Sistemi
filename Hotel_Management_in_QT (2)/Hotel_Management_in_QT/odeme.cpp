@@ -1,5 +1,5 @@
 #include "odeme.h"
-#include "ui_checkoutdialog.h"
+#include "ui_odeme.h"
 #include "QDebug"
 
 CheckOutDialog::CheckOutDialog(QWidget *parent) :
